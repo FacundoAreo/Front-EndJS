@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🍄 MicoGen - Alimentos Saludables</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> 🍄 MicoGen </h1>
+        </div>
+        <p>Alimentos saludables directamente en tu hogar</p>
+    </header>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="#productos"><i class="fas fa-box"></i> Productos</a></li>
+            <li><a href="#reseñas"><i class="fas fa-star"></i> Reseñas</a></li>
+            <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Sección de inicio/bienvenida -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Bienvenida a MicoGen</h2>
+                <p>Productos alimenticios naturales, orgánicos y de primera calidad.</p>
+                <a href="#productos" class="btn">Ver Productos</a>
+            </div>
+        </section>
+
+        <!-- Sección de Productos (Flexbox) -->
+        <section id="productos">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="productos-container">
+                <div class="product-card">
+                    <img src="imagenes/amanita1.jpeg" alt="Amanita">
+                    <h3>Amanita Muscaria</h3>
+                    <p>Amanita muscaria rica en venenos.</p>
+                    <span class="precio">$450000</span>
+                    <button class="btn-card">Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/girgola1.jpg" alt="Girgola">
+                    <h3>Girgola</h3>
+                    <p>Girgola, pleurotus ostreatus</p>
+                    <span class="precio">$380000</span>
+                    <button class="btn-card">Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/shitake1.jpeg" alt="shitake">
+                    <h3>Shitake</h3>
+                    <p>Shitake, lentinues edodes</p>
+                    <span class="precio">$1200000</span>
+                    <button class="btn-card">Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/champiñon1.jpg" alt="Champiñon">
+                    <h3>Champiñon</h3>
+                    <p>Champiñon , agaricus campestri</p>
+                    <span class="precio">$950000</span>
+                    <button class="btn-card">Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/cordyceps1.jpeg" alt="cordyceps militaris">
+                    <h3>Cordyceps</h3>
+                    <p>Cordyceps militaris, viagra tibetano</p>
+                    <span class="precio">$750000</span>
+                    <button class="btn-card">Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/portobello1.jpeg" alt="Portobelo">
+                    <h3>Portobelo</h3>
+                    <p>Portobelo, agaricus campestri , negrito.</p>
+                    <span class="precio">$1100000</span>
+                    <button class="btn-card">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Reseñas (Grid) -->
+        <section id="reseñas">
+            <h2 class="section-title">Historias de clientes, anecdotas</h2>
+            <div class="reseñas-container">
+                <div class="review-card">
+                    <img src="imagenes/cliente1.jpg" alt="Cliente" class="avatar">
+                    <h4>María González</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excelente calidad en sus productos, el shitake es delicioso. Llegó rápido y bien empacado."</p>
+                </div>
+                <div class="review-card">
+                    <img src="imagenes/cliente2.jpg" alt="Cliente" class="avatar">
+                    <h4>Carlos Rodríguez</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"El cordyceps es increíble, totalmente natural. Volveré a comprar sin duda."</p>
+                </div>
+                <div class="review-card">
+                    <img src="imagenes/cliente3.jpg" alt="Cliente" class="avatar">
+                    <h4>Ana Martínez</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Muy buena atención al cliente y productos frescos. ¡Recomendado!"</p>
+                </div>
+                <div class="review-card">
+                    <img src="imagenes/cliente4.jpg" alt="Cliente" class="avatar">
+                    <h4>Luis Fernández</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"La girgola es de primera calidad. Me encanta la variedad de productos orgánicos."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video promocional / Multimedia -->
+        <section class="video-section">
+            <h2 class="section-title">Conoce más sobre nosotros</h2>
+            <div class="video-container">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/watch?v=KNgS8vkB0Eo" 
+                    title="Video promocional MicoGen" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto (con Formspree) -->
+        <section id="contacto">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="contacto-container">
+                <div class="contacto-info">
+                    <h3>Información de contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Principal #123, Berazachuset</p>
+                    <p><i class="fas fa-phone"></i> +52 55 1234 5678</p>
+                    <p><i class="fas fa-envelope"></i> contacto@MicoGen|.com</p>
+                    <p><i class="fas fa-clock"></i> Lun-Vie: 9am - 7pm | Sáb: 10am - 4pm</p>
+                </div>
+                <form class="contacto-form" action="https://formspree.io/f/tu-id-de-formspree" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>🍄 MicoGen</h3>
+                <p>Comprometidos con tu salud y bienestar desde 2038.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#reseñas">Reseñas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MicoGen. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
