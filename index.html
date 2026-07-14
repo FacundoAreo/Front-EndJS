@@ -3,96 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100;1,400;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>FunguiAr</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>FunGuiAr</title>
   </head>
   <body>
     <header>
-      <a href="#"><h1>FunguiAr</h1></a>
+      <div class="div-logo"><a class="logo" href="./index.html">
+        <img src="./img/hongoLogo.png" width="150" height="100" alt="logo FunGuiAr" /></a>
+      </div>
 
-      <nav>
+      <nav class="header-nav">
         <ul>
-          <li><a href="#" id="link-inicio">Inicio</a></li>
-          <li><a href="#" id="link-contacto">Contacto</a></li>
           <li>
-            <a href="#" id="link-carrito">
-              🛒 Carrito (<span id="contador-carrito">0</span>)
-            </a>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono"
+              >🛒<span id="contador-carrito">0</span></a
+            >
           </li>
         </ul>
       </nav>
     </header>
-
     <main>
-      <!-- Sección de productos (visible por defecto) -->
-      <section id="seccion-productos">
-        <section id="contenedor-productos-dummy"></section>
-        <section id="contenedor-productos-manuales"></section>
-      </section>
+      <h1 class="titulo-home text-secondary">FunGuiAr</h1>
+      <h2 class="titulo-home text-secondary">Extractos medicinales</h2>
+      <p class="parrafo">
+        Extractos medicinales, nutraceuticos, para un buen vivir. 
+      </p>
 
-      <!-- Sección de contacto (oculta por defecto) -->
-      <section id="seccion-contacto" style="display: none">
-        <div class="contacto-container">
-          <h2>📬 Contacto</h2>
-          <div class="contacto-info">
-            <p><strong>📧 Email:</strong> contacto@funguiar.com</p>
-            <p><strong>📞 Teléfono:</strong> +54 11 1234-5678</p>
-            <p><strong>📍 Dirección:</strong> Av. Principal 123, Buenos Aires</p>
-            <p><strong>🕐 Horario:</strong> Lunes a Viernes 9:00 - 18:00</p>
-          </div>
-
-          <h3>Dejanos tu mensaje</h3>
-          <form id="form-contacto">
-            <div class="campo">
-              <label for="nombre">Nombre completo:</label>
-              <input type="text" id="nombre" name="nombre" required />
-            </div>
-            <div class="campo">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div class="campo">
-              <label for="telefono">Teléfono:</label>
-              <input type="tel" id="telefono" name="telefono" />
-            </div>
-            <div class="campo">
-              <label for="mensaje">Mensaje:</label>
-              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-            </div>
-            <button type="submit">Enviar mensaje</button>
-          </form>
-          <div id="mensaje-enviado" style="display: none; color: green; margin-top: 1rem;">
-            ✅ ¡Mensaje enviado con éxito! Te responderemos a la brevedad.
-          </div>
-        </div>
-      </section>
-
-      <!-- Sección del carrito (oculta por defecto) -->
-      <section id="seccion-carrito" style="display: none">
-        <div class="carrito-container">
-          <h2>🛒 Tu Carrito</h2>
-          <div id="lista-carrito"></div>
-          <div id="total-carrito"></div>
-          <button id="vaciar-carrito">Vaciar carrito</button>
-          <button id="finalizar-compra">Finalizar compra</button>
-        </div>
-      </section>
+      <section>
+  <h2 class="titulo-productos">Nuestros productos</h2>
+  <!-- 👉 Este es el div que necesita tu JavaScript -->
+  <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+    <!-- Las tarjetas se renderizarán aquí -->
+  </div>
+</section>
     </main>
-
     <footer>
-      <p>© 2025 Mi Tienda. Todos los derechos reservados.</p>
+      <p>Sitio realizado por Facundo para el curso Front - End JS de Talento Tech</p>
+      <p><a href="https://aulasvirtuales.bue.edu.ar/">TalentoTech</a></p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="./img/whatsapp.png" alt="logo de whatsapp" /></li>
+          <li><img src="./img/social.png" alt="logo de instagram" /></li>
+          <li><img src="./img/telegram.png" alt="logo de telegram" /></li>
+        </ul>
+      </nav>
     </footer>
-
-    <script src="./js/index.js"></script>
-    <script src="./js/dummyjson.js"></script>
-    <script src="./js/productos-manuales.js"></script>
-    <script src="./js/carrito.js"></script>
-    <script src="./js/contacto.js"></script>
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Extracto de amanita",
+    "descripcion": "Extracto puro de amanita para aliviar dolores estomacales y digestivos, dejara de sufrir",
+    "precio": 1500,
+    "img": "amanita1.jpeg",
+    "categoria": "digestivo",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "nombre": "Extracto de Campiñon",
+    "descripcion": "Calmante natural para mejorar la calidad del sueño y reducir el estrés",
+    "precio": 2200,
+    "img": "champiñon1.jpg",
+    "categoria": "relajante",
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "nombre": "Extracto de Cordyceps",
+    "descripcion": "Vigorizante natural desde el tibet para el mundo, cuidado si sos un insecto.",
+    "precio": 1800,
+    "img": "cordyceps1.jpeg",
+    "categoria": "respiratorio",
+    "stock": 15
+  },
+  {
+    "id": 4,
+    "nombre": "Extracto de Girgola",
+    "descripcion": "Propiedades curativas y regenerativas para la piel",
+    "precio": 2500,
+    "img": "girgola1.jpg",
+    "categoria": "dermatologico",
+    "stock": 12
+  },
+  {
+    "id": 5,
+    "nombre": "Extracto de Ostra Edulis",
+    "descripcion": "Mejora la circulación sanguínea y la memoria",
+    "precio": 2800,
+    "img": "OstraEdulis100ml.png",
+    "categoria": "cerebral",
+    "stock": 6
+  },
+  {
+    "id": 6,
+    "nombre": "Extracto de Portobelo",
+    "descripcion": "Antiinflamatorio natural y refuerzo del sistema inmunológico",
+    "precio": 1900,
+    "img": "portobello1.jpeg",
+    "categoria": "inmunologico",
+    "stock": 9
+  },
+  {
+    "id": 7,
+    "nombre": "Extracto de Shitake",
+    "descripcion": "Antiinflamatorio natural y refuerzo del sistema inmunológico",
+    "precio": 1900,
+    "img": "shitake1.jpeg",
+    "categoria": "inmunologico",
+    "stock": 91
+  },
+  {
+    "id": 8,
+    "nombre": "Extracto de Budincito",
+    "descripcion": "Anti stress, contra la fatiga",
+    "precio": 1900,
+    "img": "budincito.jpg",
+    "categoria": "stress",
+    "stock": 91
+  }
+]
